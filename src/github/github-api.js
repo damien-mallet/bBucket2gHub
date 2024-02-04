@@ -20,7 +20,7 @@ class GithubAPI {
             await makeRequest("GET", `${API_URL}/user/repos`, this.headers)
         );
 
-        if (repos) {
+        if (repos.ok) {
             repos?.forEach(repo => {
                 repoList.push(repo.name)
             })
