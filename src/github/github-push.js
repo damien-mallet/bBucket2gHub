@@ -77,7 +77,7 @@ class GithubPusher {
         const tree = await this.api.modifyTree(
             this.owner,
             this.repo,
-            head.commit.tree.sha,
+            head.commit?.tree.sha,
             [{
                 path: filename,
                 mode: "100644",

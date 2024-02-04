@@ -92,7 +92,7 @@ class BitbucketPuller {
         do {
             const data = await makeRequest("GET", url, this.headers);
 
-            data.values.forEach(item => {
+            data.values?.forEach(item => {
                 results.push(item.slug);
             });
 

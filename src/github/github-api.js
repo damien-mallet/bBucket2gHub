@@ -21,7 +21,7 @@ class GithubAPI {
         );
 
         if (repos) {
-            repos.forEach(repo => {
+            repos?.forEach(repo => {
                 repoList.push(repo.name)
             })
         }
