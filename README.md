@@ -46,3 +46,18 @@ AZURE_ORG=[FILL ACCORDINGLY]
 ### 2) Run the program
 $ node src/index_azure.js
 
+## Beta support for GitLab
+
+### 1) Add required environment variables
+```
+GITLAB_USERNAME=[FILL ACCORDINGLY]
+GITLAB_MAIL=[FILL ACCORDINGLY]
+GITLAB_TOKEN=[FILL ACCORDINGLY]
+GITLAB_PROJECT=[FILL ACCORDINGLY]
+GITLAB_PROJECT_ID=[FILL ACCORDINGLY]
+GITLAB_DOMAIN=[FILL ACCORDINGLY]
+```
+
+### 2) Run the program
+$ node src/index_gitlab.js
+
